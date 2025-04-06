@@ -72,7 +72,7 @@ The system uses environmental noise for generating secure random numbers:
 
 ## License
 
-[Your chosen license]
+MIT license
 
 ## Contributing
 
