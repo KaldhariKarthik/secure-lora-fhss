@@ -21,10 +21,20 @@ A secure wireless communication system built for ESP32 devices using LoRa techno
 ## Pin Configuration
 
 ```
-#define SS 5     // LoRa SPI Chip Select
-#define RST 14   // LoRa Reset
-#define DIO0 2   // LoRa DIO0 (Interrupt)
-#define NOISE_PIN 34  // Analog noise input
+// LoRa SX1278 to ESP32 Pin Mapping
+
+#define SS         5    // LoRa SPI Chip Select (NSS)
+#define RST       14    // LoRa Reset Pin
+#define DIO0       2    // LoRa DIO0 (Interrupt)
+
+// SPI Pins (fixed for ESP32 hardware SPI)
+#define SCK      18     // SPI Clock
+#define MISO     19     // SPI MISO (Master In Slave Out)
+#define MOSI     23     // SPI MOSI (Master Out Slave In)
+
+// Analog Noise Pin for Random Seed Generation
+#define NOISE_PIN 34    // Analog input pin for noise (used in frequency hopping)
+
 ```
 
 ## System Architecture
