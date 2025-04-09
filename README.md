@@ -1,5 +1,3 @@
-Your README is already well-structured and informative—great job! Here's an **enhanced version** of it, with improved formatting, clarity, and professional tone to make it even more impressive and user-friendly for potential collaborators, users, or reviewers:
-
 ---
 
 # 🔒 Secure LoRa FHSS Communication System
